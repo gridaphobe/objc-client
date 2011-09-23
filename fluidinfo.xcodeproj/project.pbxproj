@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07DE6F4C142D1DEB00711251 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DE6F4B142D1DEB00711251 /* Cocoa.framework */; };
+		07DE6F5D142D1DEB00711251 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555EF8913D5CEFF007F4CDE /* SenTestingKit.framework */; };
+		07DE6F5E142D1DEB00711251 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DE6F4B142D1DEB00711251 /* Cocoa.framework */; };
+		07DE6F61142D1DEB00711251 /* libosx-fluidinfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DE6F4A142D1DEB00711251 /* libosx-fluidinfo.a */; };
+		07DE6F67142D1DEB00711251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DE6F65142D1DEB00711251 /* InfoPlist.strings */; };
+		07DE6F73142D1E1500711251 /* fluidinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555EF8113D5CEFF007F4CDE /* fluidinfo.m */; };
+		07DE6F74142D1E1500711251 /* FluidObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 651E20B513DC8A44002596A0 /* FluidObject.m */; };
+		07DE6F75142D1E1500711251 /* Namespace.m in Sources */ = {isa = PBXBuildFile; fileRef = 651E20B013DC7B50002596A0 /* Namespace.m */; };
+		07DE6F76142D1E1500711251 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 6589778513DCAD400011717F /* Object.m */; };
+		07DE6F77142D1E1500711251 /* Permission.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2954E13E5A77700623005 /* Permission.m */; };
+		07DE6F78142D1E1500711251 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529A9BE13DB239B00587183 /* Tag.m */; };
+		07DE6F79142D1E1500711251 /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 6589779113DDF0B30011717F /* Value.m */; };
+		07DE6F7A142D1E1500711251 /* ServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65017ED513D8BCFB003E13CC /* ServerResponse.m */; };
+		07DE6F7B142D1E1500711251 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 658F71BA13F5CF490087D363 /* Session.m */; };
+		07DE6F7C142D1E1500711251 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555EFE513D63244007F4CDE /* NSStringAdditions.m */; };
+		07DE6F7D142D1E2100711251 /* Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A067A8141D74F9002352BE /* Sample.m */; };
+		07DE6F7E142D1E2100711251 /* FakeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65547D3313ED80CA005A1C55 /* FakeServer.m */; };
+		07DE6F7F142D1E2100711251 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 658154BA1421197E00F67270 /* Utils.m */; };
+		07DE6F80142D1E3700711251 /* fluidinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6555EF8013D5CEFF007F4CDE /* fluidinfo.h */; };
+		07DE6F81142D1E3700711251 /* FluidObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 651E20B413DC8A44002596A0 /* FluidObject.h */; };
+		07DE6F82142D1E3700711251 /* Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 6589778213DCA93F0011717F /* Namespace.h */; };
+		07DE6F83142D1E3700711251 /* Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 6589778413DCAD3F0011717F /* Object.h */; };
+		07DE6F84142D1E3700711251 /* Permission.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D2954D13E5A77700623005 /* Permission.h */; };
+		07DE6F85142D1E3700711251 /* Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 6589778013DCA9200011717F /* Tag.h */; };
+		07DE6F86142D1E3700711251 /* Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 6589779013DDF0B30011717F /* Value.h */; };
+		07DE6F87142D1E3700711251 /* ServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 65017ED413D8BCFB003E13CC /* ServerResponse.h */; };
+		07DE6F88142D1E3700711251 /* Session.h in Headers */ = {isa = PBXBuildFile; fileRef = 658F71B913F5CF490087D363 /* Session.h */; };
+		07DE6F89142D1E3700711251 /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6555EFE413D63244007F4CDE /* NSStringAdditions.h */; };
+		07DE6F8A142D1E3700711251 /* Sample.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A067A7141D74F9002352BE /* Sample.h */; };
+		07DE6F8B142D1E4B00711251 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 658154B91421197E00F67270 /* Utils.h */; };
+		07DE6F8C142D1E5900711251 /* fluidinfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6555EF9B13D5CEFF007F4CDE /* fluidinfoTests.m */; };
+		07DE6F8D142D1E7900711251 /* fluidinfoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6555EF9913D5CEFF007F4CDE /* fluidinfoTests.h */; };
 		65017ED613D8BCFB003E13CC /* ServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 65017ED413D8BCFB003E13CC /* ServerResponse.h */; };
 		65017ED713D8BCFB003E13CC /* ServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 65017ED513D8BCFB003E13CC /* ServerResponse.m */; };
 		651E20B213DC7B50002596A0 /* Namespace.m in Sources */ = {isa = PBXBuildFile; fileRef = 651E20B013DC7B50002596A0 /* Namespace.m */; };
@@ -44,6 +76,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		07DE6F5F142D1DEB00711251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6555EF6F13D5CEFF007F4CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DE6F49142D1DEB00711251;
+			remoteInfo = "osx-fluidinfo";
+		};
 		6555EF9013D5CEFF007F4CDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6555EF6F13D5CEFF007F4CDE /* Project object */;
@@ -54,6 +93,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07DE6F4A142D1DEB00711251 /* libosx-fluidinfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libosx-fluidinfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DE6F4B142D1DEB00711251 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		07DE6F4E142D1DEB00711251 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07DE6F4F142D1DEB00711251 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07DE6F50142D1DEB00711251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07DE6F53142D1DEB00711251 /* osx-fluidinfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osx-fluidinfo-Prefix.pch"; sourceTree = "<group>"; };
+		07DE6F5C142D1DEB00711251 /* osx-fluidinfoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osx-fluidinfoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DE6F64142D1DEB00711251 /* osx-fluidinfoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osx-fluidinfoTests-Info.plist"; sourceTree = "<group>"; };
+		07DE6F66142D1DEB00711251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65017ED413D8BCFB003E13CC /* ServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ServerResponse.h; path = Fluidinfo/ServerResponse.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		65017ED513D8BCFB003E13CC /* ServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ServerResponse.m; path = Fluidinfo/ServerResponse.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		651E20B013DC7B50002596A0 /* Namespace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = Namespace.m; path = Fluidinfo/Namespace.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -97,6 +145,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		07DE6F47142D1DEB00711251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DE6F4C142D1DEB00711251 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DE6F58142D1DEB00711251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DE6F5D142D1DEB00711251 /* SenTestingKit.framework in Frameworks */,
+				07DE6F5E142D1DEB00711251 /* Cocoa.framework in Frameworks */,
+				07DE6F61142D1DEB00711251 /* libosx-fluidinfo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6555EF7513D5CEFF007F4CDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +186,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07DE6F4D142D1DEB00711251 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DE6F4E142D1DEB00711251 /* AppKit.framework */,
+				07DE6F4F142D1DEB00711251 /* CoreData.framework */,
+				07DE6F50142D1DEB00711251 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07DE6F51142D1DEB00711251 /* osx-fluidinfo */ = {
+			isa = PBXGroup;
+			children = (
+				07DE6F52142D1DEB00711251 /* Supporting Files */,
+			);
+			path = "osx-fluidinfo";
+			sourceTree = "<group>";
+		};
+		07DE6F52142D1DEB00711251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DE6F53142D1DEB00711251 /* osx-fluidinfo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07DE6F62142D1DEB00711251 /* osx-fluidinfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07DE6F63142D1DEB00711251 /* Supporting Files */,
+			);
+			path = "osx-fluidinfoTests";
+			sourceTree = "<group>";
+		};
+		07DE6F63142D1DEB00711251 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DE6F64142D1DEB00711251 /* osx-fluidinfoTests-Info.plist */,
+				07DE6F65142D1DEB00711251 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6555EF6D13D5CEFF007F4CDE = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +236,8 @@
 				65665CCF13E36D4800E02397 /* AUTHORS */,
 				6555EF7D13D5CEFF007F4CDE /* fluidinfo */,
 				6555EF9313D5CEFF007F4CDE /* fluidinfoTests */,
+				07DE6F51142D1DEB00711251 /* osx-fluidinfo */,
+				07DE6F62142D1DEB00711251 /* osx-fluidinfoTests */,
 				6555EF7A13D5CEFF007F4CDE /* Frameworks */,
 				6555EF7913D5CEFF007F4CDE /* Products */,
 			);
@@ -137,6 +248,8 @@
 			children = (
 				6555EF7813D5CEFF007F4CDE /* libfluidinfo.a */,
 				6555EF8813D5CEFF007F4CDE /* fluidinfoTests.octest */,
+				07DE6F4A142D1DEB00711251 /* libosx-fluidinfo.a */,
+				07DE6F5C142D1DEB00711251 /* osx-fluidinfoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +261,8 @@
 				6555EF8913D5CEFF007F4CDE /* SenTestingKit.framework */,
 				6555EF8B13D5CEFF007F4CDE /* UIKit.framework */,
 				6555EF8E13D5CEFF007F4CDE /* CoreGraphics.framework */,
+				07DE6F4B142D1DEB00711251 /* Cocoa.framework */,
+				07DE6F4D142D1DEB00711251 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,6 +348,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		07DE6F48142D1DEB00711251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DE6F8B142D1E4B00711251 /* Utils.h in Headers */,
+				07DE6F80142D1E3700711251 /* fluidinfo.h in Headers */,
+				07DE6F81142D1E3700711251 /* FluidObject.h in Headers */,
+				07DE6F82142D1E3700711251 /* Namespace.h in Headers */,
+				07DE6F83142D1E3700711251 /* Object.h in Headers */,
+				07DE6F84142D1E3700711251 /* Permission.h in Headers */,
+				07DE6F85142D1E3700711251 /* Tag.h in Headers */,
+				07DE6F86142D1E3700711251 /* Value.h in Headers */,
+				07DE6F87142D1E3700711251 /* ServerResponse.h in Headers */,
+				07DE6F88142D1E3700711251 /* Session.h in Headers */,
+				07DE6F89142D1E3700711251 /* NSStringAdditions.h in Headers */,
+				07DE6F8A142D1E3700711251 /* Sample.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6555EF7613D5CEFF007F4CDE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +389,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		07DE6F49142D1DEB00711251 /* osx-fluidinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DE6F70142D1DEB00711251 /* Build configuration list for PBXNativeTarget "osx-fluidinfo" */;
+			buildPhases = (
+				07DE6F46142D1DEB00711251 /* Sources */,
+				07DE6F47142D1DEB00711251 /* Frameworks */,
+				07DE6F48142D1DEB00711251 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "osx-fluidinfo";
+			productName = "osx-fluidinfo";
+			productReference = 07DE6F4A142D1DEB00711251 /* libosx-fluidinfo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		07DE6F5B142D1DEB00711251 /* osx-fluidinfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DE6F71142D1DEB00711251 /* Build configuration list for PBXNativeTarget "osx-fluidinfoTests" */;
+			buildPhases = (
+				07DE6F57142D1DEB00711251 /* Sources */,
+				07DE6F58142D1DEB00711251 /* Frameworks */,
+				07DE6F59142D1DEB00711251 /* Resources */,
+				07DE6F5A142D1DEB00711251 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DE6F60142D1DEB00711251 /* PBXTargetDependency */,
+			);
+			name = "osx-fluidinfoTests";
+			productName = "osx-fluidinfoTests";
+			productReference = 07DE6F5C142D1DEB00711251 /* osx-fluidinfoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		6555EF7713D5CEFF007F4CDE /* fluidinfo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6555EF9F13D5CEFF007F4CDE /* Build configuration list for PBXNativeTarget "fluidinfo" */;
@@ -314,11 +484,22 @@
 			targets = (
 				6555EF7713D5CEFF007F4CDE /* fluidinfo */,
 				6555EF8713D5CEFF007F4CDE /* fluidinfoTests */,
+				07DE6F49142D1DEB00711251 /* osx-fluidinfo */,
+				07DE6F5B142D1DEB00711251 /* osx-fluidinfoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		07DE6F59142D1DEB00711251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DE6F8D142D1E7900711251 /* fluidinfoTests.h in Resources */,
+				07DE6F67142D1DEB00711251 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6555EF8513D5CEFF007F4CDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +512,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		07DE6F5A142D1DEB00711251 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		6555EF8613D5CEFF007F4CDE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,6 +541,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07DE6F46142D1DEB00711251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DE6F7D142D1E2100711251 /* Sample.m in Sources */,
+				07DE6F7E142D1E2100711251 /* FakeServer.m in Sources */,
+				07DE6F7F142D1E2100711251 /* Utils.m in Sources */,
+				07DE6F73142D1E1500711251 /* fluidinfo.m in Sources */,
+				07DE6F74142D1E1500711251 /* FluidObject.m in Sources */,
+				07DE6F75142D1E1500711251 /* Namespace.m in Sources */,
+				07DE6F76142D1E1500711251 /* Object.m in Sources */,
+				07DE6F77142D1E1500711251 /* Permission.m in Sources */,
+				07DE6F78142D1E1500711251 /* Tag.m in Sources */,
+				07DE6F79142D1E1500711251 /* Value.m in Sources */,
+				07DE6F7A142D1E1500711251 /* ServerResponse.m in Sources */,
+				07DE6F7B142D1E1500711251 /* Session.m in Sources */,
+				07DE6F7C142D1E1500711251 /* NSStringAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DE6F57142D1DEB00711251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DE6F8C142D1E5900711251 /* fluidinfoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6555EF7413D5CEFF007F4CDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +600,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		07DE6F60142D1DEB00711251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DE6F49142D1DEB00711251 /* osx-fluidinfo */;
+			targetProxy = 07DE6F5F142D1DEB00711251 /* PBXContainerItemProxy */;
+		};
 		6555EF9113D5CEFF007F4CDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6555EF7713D5CEFF007F4CDE /* fluidinfo */;
@@ -386,6 +613,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		07DE6F65142D1DEB00711251 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DE6F66142D1DEB00711251 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		6555EF9613D5CEFF007F4CDE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -397,6 +632,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		07DE6F6C142D1DEB00711251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-fluidinfo/osx-fluidinfo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07DE6F6D142D1DEB00711251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-fluidinfo/osx-fluidinfo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07DE6F6E142D1DEB00711251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-fluidinfo/osx-fluidinfo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "osx-fluidinfoTests/osx-fluidinfoTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07DE6F6F142D1DEB00711251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osx-fluidinfo/osx-fluidinfo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "osx-fluidinfoTests/osx-fluidinfoTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		6555EF9D13D5CEFF007F4CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -506,6 +815,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07DE6F70142D1DEB00711251 /* Build configuration list for PBXNativeTarget "osx-fluidinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DE6F6C142D1DEB00711251 /* Debug */,
+				07DE6F6D142D1DEB00711251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07DE6F71142D1DEB00711251 /* Build configuration list for PBXNativeTarget "osx-fluidinfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DE6F6E142D1DEB00711251 /* Debug */,
+				07DE6F6F142D1DEB00711251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6555EF7213D5CEFF007F4CDE /* Build configuration list for PBXProject "fluidinfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
